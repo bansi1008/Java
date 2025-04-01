@@ -6,6 +6,7 @@ public class Hash1 {
     public static void main(String[] args) {
         String sentence = "Java is fun and Java is powerful";
         String[] words = sentence.split(" ");
+        System.out.println(words.length);
 
         HashMap<String, Integer> frequencyMap = new HashMap<>();
         for (String word : words) {
